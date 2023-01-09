@@ -2,7 +2,7 @@
 
 Antlion is a WIP but usable email generator. Using a collection of "blocks" you can compose emails that will render reliably in most-all email clients, in plain-text and HTML.
 
-Development of Antlion is largely handled by [Hussle Inc](github.com/hussleinc) employees.
+Development of Antlion is largely handled by [Hussle Inc](https://github.com/hussleinc) employees.
 
 ## blocks
 
@@ -32,4 +32,4 @@ htmlContent := email.RenderHTML()
 
 ## contributing
 
-Feel free to contribute new components, please create a PR with screenshots. If you have access to something like [Litmus](litmus.com) or [Email on Acid](emailonacid.com), please use these tools first before submitting a PR, as we will _not_ merge content that does not acceptably render on all devices.
+Feel free to contribute new components, please create a PR with screenshots. If you have access to something like [Litmus](https://litmus.com) or [Email on Acid](https://emailonacid.com), please use these tools first before submitting a PR, as we will _not_ merge content that does not acceptably render on all devices.
