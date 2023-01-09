@@ -3,7 +3,7 @@ package blocks
 import (
 	"fmt"
 
-	"github.com/hussleinc/antlion/templates"
+	"github.com/endigma/antlion/templates"
 )
 
 type CodeBlock struct {

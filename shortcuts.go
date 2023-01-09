@@ -1,7 +1,7 @@
 package antlion
 
 import (
-	"github.com/hussleinc/antlion/blocks"
+	"github.com/endigma/antlion/blocks"
 )
 
 func Paragraph(content string) blocks.ParagraphBlock {

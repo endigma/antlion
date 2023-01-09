@@ -4,8 +4,8 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/hussleinc/antlion/blocks"
-	"github.com/hussleinc/antlion/templates"
+	"github.com/endigma/antlion/blocks"
+	"github.com/endigma/antlion/templates"
 )
 
 // Antlion is an instance of the antlion email generator

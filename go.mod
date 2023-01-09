@@ -1,4 +1,4 @@
-module github.com/hussleinc/antlion
+module github.com/endigma/antlion
 
 go 1.19
 

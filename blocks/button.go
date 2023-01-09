@@ -1,6 +1,6 @@
 package blocks
 
-import "github.com/hussleinc/antlion/templates"
+import "github.com/endigma/antlion/templates"
 
 type ButtonBlock struct {
 	Content string
