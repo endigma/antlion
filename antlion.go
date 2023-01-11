@@ -18,13 +18,15 @@ type Email struct {
 	Blocks    []blocks.Block
 	PreHeader string
 	Title     string
+	LogoUrl   string
 }
 
-func NewEmail(title, preheader string, blocks ...blocks.Block) Email {
+func NewEmail(title, preheader string, logourl string, blocks ...blocks.Block) Email {
 	return Email{
 		Title:     title,
 		PreHeader: preheader,
 		Blocks:    blocks,
+		LogoUrl:   logourl,
 	}
 }
 
@@ -51,5 +53,6 @@ func (e Email) RenderHTML() string {
 		"body":      template.HTML(writer.String()),
 		"preheader": e.PreHeader,
 		"title":     e.Title,
+		"logo":      e.LogoUrl,
 	})
 }
